@@ -1,0 +1,16 @@
+<div class="container text-center">
+
+  <h1>
+    Estás a punto de eliminar a {{jugador.nombre}}
+  </h1>
+  
+  <p> ¿Desea continuar?</p>
+  
+  <button mat-button color="warn" (click)="borrar()">
+  Sí, eliminar
+  </button>
+  <button mat-button color="primary" (click)="cancelar()">
+  No, cancelar
+  </button>
+
+</div>

@@ -1,0 +1,13 @@
+body{
+    margin-left: 4rem;
+}
+
+.example-container {
+   max-width:100%;
+}
+
+mat-form-field {
+    margin-top: 2rem;
+}
+
+

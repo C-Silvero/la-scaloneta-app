@@ -1,0 +1,40 @@
+<body>
+  <div class="example-container">
+    <mat-form-field appearance="fill">
+      <mat-label>Nombre de un jugador</mat-label>
+        <input matInput
+        type="text"
+        list="datalistOptions"
+        id="exampleDataList"
+        [(ngModel)]="termino"
+        (input)="buscar()"
+        [matAutocomplete]="auto">
+  
+        <mat-autocomplete autoActiveFirstOption 
+        (optionSelected)="opcionSeleccionada( $event )"
+        #auto="matAutocomplete"
+        >
+  
+          <mat-option *ngFor="let jugador of jugadores" [value]="jugador">
+            {{jugador.nombre}}
+          </mat-option>
+  
+          <mat-option 
+          [value]="" 
+          *ngIf="jugadores.length === 0 && termino.trim().length > 1" >
+              No se encontró nada con el término {{ termino }}
+          </mat-option>
+          
+      </mat-autocomplete>
+    </mat-form-field>
+  
+    
+  </div>
+  
+  <div *ngIf="jugadorSeleccionado"   style="width: 300px; height: 400px; display: grid; grid-template-columns: 1; grid-template-rows: 1fr;">
+        
+    <app-jugador-card [jugador]="jugadorSeleccionado"></app-jugador-card>
+    </div>
+  
+
+</body>

@@ -1,0 +1,56 @@
+.chip {
+    display: flex;
+    margin-top: 0.5rem;
+}
+mat-icon {
+    width: 10 !important;
+}
+#container {
+    width: 1300px;
+    margin: 0 auto;
+    columns: 4;
+    column-gap: 4px;
+}
+
+.box {
+    width: 300px;
+    padding-top: 10px;
+    break-inside: avoid;   
+}
+
+@media  (max-width: 1279px) {
+    #container {
+        columns: 3;
+    }
+} 
+
+@media  (max-width: 1210px) {
+    #container {
+        width: 950px;
+        columns: 2;
+    }
+    .box {
+        width: 400px;
+    }
+}  
+
+@media  (max-width: 997px) {
+    #container {
+        width: 800px;
+        columns: 2;
+    }
+    .box {
+        width: 350px;
+    }
+} 
+
+@media  (max-width: 846px) {
+    #container {
+        width: 100%;
+        columns: 1;
+    }
+    .box {
+        width: 100%;
+    }
+} 
+

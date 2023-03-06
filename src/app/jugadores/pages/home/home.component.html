@@ -1,0 +1,43 @@
+<mat-sidenav-container fullscreen color="primary">
+
+
+    <mat-sidenav #sidenav mode="push">
+        <mat-nav-list>
+            <div class="menu">
+                <h1>Menú</h1>
+            </div>
+            <a routerLink="./listado" 
+            (click)="sidenav.toggle()"
+            mat-list-item>Lista</a>
+            <a routerLink="./buscar" 
+            (click)="sidenav.toggle()"
+            mat-list-item>Buscar
+            </a>
+            <a routerLink="./agregar" 
+            (click)="sidenav.toggle()"
+            mat-list-item>Agregar </a>
+            <img 
+            mat-list-item src="../../../../assets/heroes/logo.jpg"
+            width="80"
+            alt="">
+        </mat-nav-list>
+
+    </mat-sidenav>
+
+    <mat-toolbar>
+        <button mat-icon-button 
+            (click)="sidenav.toggle()"
+        > 
+        <mat-icon>
+            <span class="material-icons">
+                sports_soccer
+                </span>
+        </mat-icon>
+        </button>
+
+    </mat-toolbar>
+
+    <router-outlet></router-outlet>
+</mat-sidenav-container>
+
+<hr>

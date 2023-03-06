@@ -1,0 +1,30 @@
+
+
+<section class="container">
+  <div class="chip">
+    <mat-chip-listbox>
+      <mat-chip-option 
+      *ngFor="let posicion of posiciones"
+      (click)="getPosicion( posicion )">
+      <span>
+        {{posicion}}  
+        <mat-icon>{{ obtenerIcono(posicion) }}</mat-icon>
+      </span>
+    </mat-chip-option>
+    </mat-chip-listbox>
+  </div>
+  
+        <div id="container" *ngIf="!mostrarJugadoresFiltrados">
+          <div class="box" *ngFor="let jugador of jugadores">
+            
+            <app-jugador-card [jugador]="jugador"></app-jugador-card>
+          </div>
+      </div>
+
+      <div class="row" *ngIf="mostrarJugadoresFiltrados">
+        <div class="col-md-3" *ngFor="let jugador of jugadoresFiltrados">
+          <app-jugador-card [jugador]="jugador"></app-jugador-card>
+        </div>
+      </div>
+
+</section>

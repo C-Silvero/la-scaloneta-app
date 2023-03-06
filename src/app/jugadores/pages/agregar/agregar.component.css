@@ -1,0 +1,30 @@
+mat-form-field {
+   width: 100%;
+}
+
+button {
+    margin-left: 1rem;
+}
+
+img {
+    border-radius: 10px;
+    max-width: 600px;
+    max-height: 600px;
+}
+
+@media  (max-width: 750px) {
+    .row {
+        width: 100%;
+    }
+
+    #imagen {
+        margin-top: 3rem;
+        width: 100%;
+    }
+
+    img {
+        max-width: 400px;
+    }
+
+
+}

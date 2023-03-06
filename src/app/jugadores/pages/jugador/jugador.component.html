@@ -1,0 +1,27 @@
+
+<div class="container" *ngIf="!jugador; else divJugador">
+    <mat-spinner>
+    </mat-spinner>
+</div>
+
+<ng-template #divJugador>
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+               
+                  <h1>{{jugador.nombre}} </h1>
+                
+                    <img class="img-fluid" src="{{jugador | imagen}}" alt="">
+                  </div>
+                  <div class="col">
+                    <h1> 
+                      Estadísticas
+                     </h1>
+                     <p>Partidos jugados: {{jugador.estadisticas![0].PJ}} </p>
+                     <p>Goles: {{jugador.estadisticas![0].goles}}</p>
+                     <p *ngIf="jugador.estadisticas![0].asistencias > 0 ">Asistencias: {{jugador.estadisticas![0].asistencias}} </p>
+                    </div>
+                </div>
+            </div>
+            
+</ng-template>
