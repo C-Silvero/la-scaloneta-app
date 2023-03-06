@@ -1,0 +1,331 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "usuario": "Leo Messi",
+      "email": "leomessi123@gmail.com"
+    }
+  ],
+  "jugadores": [
+    {
+      "id": "dibu",
+      "dorsal": 1,
+      "nombre": "Dibu Martínez",
+      "estadisticas": "PJ: 21",
+      "posicion": "Arquero"
+    },
+    {
+      "id": "rulli",
+      "dorsal": 121,
+      "nombre": "Gerónimo Rulli",
+      "estadisticas": "PJ: 21",
+      "posicion": "Arquero"
+    },
+    {
+      "id": "pezzela",
+      "dorsal": 23,
+      "nombre": "Germán Pezzella",
+      "estadisticas": [
+        {
+          "PJ": "25",
+          "goles": "2",
+          "asistencias": ""
+        }
+      ],
+      "posicion": "Defensor"
+    },
+    {
+      "id": "otamendi",
+      "dorsal": 19,
+      "nombre": "Nicolás Otamendi",
+      "posicion": "Defensor",
+      "estadisticas": [
+        {
+          "PJ": "100",
+          "goles": 4,
+          "asistencias": ""
+        }
+      ]
+    },
+    {
+      "id": "limartinez",
+      "dorsal": 15,
+      "nombre": "Lisandro Martinez",
+      "posicion": "Defensor",
+      "estadisticas": [
+        {
+          "PJ": "15",
+          "goles": 0,
+          "asistencias": ""
+        }
+      ]
+    },
+    {
+      "id": "cuti",
+      "dorsal": 13,
+      "nombre": "Cuti Romero",
+      "posicion": "Defensor",
+      "estadisticas": [
+        {
+          "PJ": "19",
+          "goles": "1",
+          "asistencias": ""
+        }
+      ]
+    },
+    {
+      "id": "foyth",
+      "dorsal": 2,
+      "nombre": "Juan Foyth",
+      "posicion": "Defensor",
+      "estadisticas": [
+        {
+          "PJ": "17",
+          "goles": 0,
+          "asistencias": ""
+        }
+      ]
+    },
+    {
+      "id": "taglia",
+      "dorsal": 3,
+      "nombre": "Nicolás Tagliafico",
+      "posicion": "Defensor",
+      "estadisticas": [
+        {
+          "PJ": "48",
+          "goles": 0,
+          "asistencias": ""
+        }
+      ]
+    },
+    {
+      "id": "armani",
+      "dorsal": 1,
+      "nombre": "Franco Armani",
+      "estadisticas": "PJ: 2",
+      "posicion": "Arquero"
+    },
+    {
+      "id": "montiel",
+      "dorsal": 4,
+      "nombre": "Gonzalo Montiel",
+      "posicion": "Defensa",
+      "estadisticas": [
+        {
+          "PJ": "22",
+          "goles": "",
+          "asistencias": ""
+        }
+      ]
+    },
+    {
+      "id": "molina",
+      "dorsal": 26,
+      "nombre": "Nahuel Molina Lucero",
+      "posicion": "Defensa",
+      "estadisticas": [
+        {
+          "PJ": "27",
+          "goles": "1",
+          "asistencias": ""
+        }
+      ]
+    },
+    {
+      "id": "acuña",
+      "dorsal": 8,
+      "nombre": "El huevo Acuña",
+      "posicion": "Defensa",
+      "estadisticas": [
+        {
+          "PJ": "49",
+          "goles": "",
+          "asistencias": ""
+        }
+      ]
+    },
+    {
+      "id": "paredes",
+      "dorsal": 23,
+      "nombre": "Leandro Paredes",
+      "posicion": "Mediocampista",
+      "estadisticas": [
+        {
+          "PJ": "51",
+          "goles": "4",
+          "asistencias": ""
+        }
+      ]
+    },
+    {
+      "id": "grodriguez",
+      "dorsal": 18,
+      "nombre": "Guido Rodríguez",
+      "posicion": "Mediocampista",
+      "estadisticas": [
+        {
+          "PJ": "27",
+          "goles": "1",
+          "asistencias": ""
+        }
+      ]
+    },
+    {
+      "id": "pala",
+      "dorsal": 14,
+      "nombre": "Exequiel Palacios",
+      "posicion": "Mediocampista",
+      "estadisticas": [
+        {
+          "PJ": "23",
+          "goles": 0,
+          "asistencias": ""
+        }
+      ]
+    },
+    {
+      "id": "depaul",
+      "dorsal": 7,
+      "nombre": "Rodrigo De Paul",
+      "posicion": "Mediocampista",
+      "estadisticas": [
+        {
+          "PJ": "51",
+          "goles": "2",
+          "asistencias": ""
+        }
+      ]
+    },
+    {
+      "id": "papu",
+      "dorsal": 17,
+      "nombre": "Alejandro Gomez",
+      "posicion": "Mediocampista",
+      "estadisticas": [
+        {
+          "PJ": "17",
+          "goles": "3",
+          "asistencias": ""
+        }
+      ]
+    },
+    {
+      "id": "efernandez",
+      "dorsal": 24,
+      "nombre": "Enzo Fernández",
+      "posicion": "Mediocampista",
+      "estadisticas": [
+        {
+          "PJ": "10",
+          "goles": "1",
+          "asistencias": 1
+        }
+      ]
+    },
+    {
+      "id": "macallister",
+      "dorsal": 20,
+      "nombre": "Alexis Mac Allister",
+      "posicion": "Mediocampista",
+      "estadisticas": [
+        {
+          "PJ": "14",
+          "goles": "1",
+          "asistencias": ""
+        }
+      ]
+    },
+    {
+      "id": "messi",
+      "dorsal": 10,
+      "nombre": "Lionel Messi",
+      "posicion": "Delantero",
+      "estadisticas": [
+        {
+          "PJ": "172",
+          "goles": "98",
+          "asistencias": 51
+        }
+      ]
+    },
+    {
+      "id": "julian",
+      "dorsal": 9,
+      "nombre": "Julián Álvarez",
+      "posicion": "Delantero",
+      "estadisticas": [
+        {
+          "PJ": "19",
+          "goles": "7",
+          "asistencias": ""
+        }
+      ]
+    },
+    {
+      "id": "dimaria",
+      "dorsal": 23,
+      "nombre": "Ángel Dí María",
+      "posicion": "Delantero",
+      "estadisticas": [
+        {
+          "PJ": "129",
+          "goles": "28",
+          "asistencias": ""
+        }
+      ]
+    },
+    {
+      "id": "dybala",
+      "dorsal": 21,
+      "nombre": "Paulo Dybala",
+      "posicion": "Delantero",
+      "estadisticas": [
+        {
+          "PJ": "36",
+          "goles": "3",
+          "asistencias": ""
+        }
+      ]
+    },
+    {
+      "id": "almada",
+      "dorsal": 16,
+      "nombre": "Thiago Almada",
+      "posicion": "Mediocampista",
+      "estadisticas": [
+        {
+          "PJ": "2",
+          "goles": 0,
+          "asistencias": ""
+        }
+      ]
+    },
+    {
+      "id": "lautaro",
+      "dorsal": 22,
+      "nombre": "Lautaro Martinez",
+      "posicion": "Delantero",
+      "estadisticas": [
+        {
+          "PJ": "46",
+          "goles": "21",
+          "asistencias": ""
+        }
+      ]
+    },
+    {
+      "id": "acorrea",
+      "dorsal": 15,
+      "nombre": "Ángel Correa",
+      "posicion": "Delantero",
+      "estadisticas": [
+        {
+          "PJ": "23",
+          "goles": "3",
+          "asistencias": ""
+        }
+      ]
+    }
+  ]
+}
