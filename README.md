@@ -35,4 +35,7 @@ Lo agrega
 Y elimina
 ![image](https://user-images.githubusercontent.com/103047954/223862563-9805152a-a2e8-4003-b6eb-22eb55668390.png)
 
+Filtra jugadores por posición
+![image](https://user-images.githubusercontent.com/103047954/223863387-3d950284-61fe-4f1f-a8ce-72c1cc6e80f8.png)
+![image](https://user-images.githubusercontent.com/103047954/223863525-95d28d39-c235-48ea-8a49-1bf77194576b.png)
 
