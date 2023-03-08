@@ -6,7 +6,8 @@ Home
 ![image](https://user-images.githubusercontent.com/103047954/223859748-c5f6c63c-af64-4b10-811c-893b266c5bee.png)
 
 Editar Jugador
-![image](https://user-images.githubusercontent.com/103047954/223859896-2991c218-a2ab-40a3-995c-7c2f85bdb992.png)
+![image](https://user-images.githubusercontent.com/103047954/223862897-a2ded7ef-2235-4354-bbdd-2ca7d3fbb9e7.png)
+
 
 Agrega y edita jugadores por posición, goles, asistencias, imágen.
 ![image](https://user-images.githubusercontent.com/103047954/223859955-f3aa13cd-7aa4-4314-ad18-d274f22f0258.png)
