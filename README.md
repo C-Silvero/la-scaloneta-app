@@ -22,10 +22,12 @@ Los imprime en pantalla
 ![image](https://user-images.githubusercontent.com/103047954/223860869-a1927a0a-5064-4cd5-8dad-a7e379e5a4be.png)
 
 Toolbar
-![image](https://user-images.githubusercontent.com/103047954/223860940-fd0111f4-bd38-49a4-9f49-71b8a9bce81d.png)
+![image](https://user-images.githubusercontent.com/103047954/223863143-79506f2a-6f11-4dd4-aecb-b3ae7b77557c.png)
+
 
 Agregar Jugador
-![image](https://user-images.githubusercontent.com/103047954/223861714-68e220f9-bca2-49a9-acef-214d697eea7b.png)
+![image](https://user-images.githubusercontent.com/103047954/223863198-c56646cd-6f2f-4938-ab45-f56ba628cfe4.png)
+
 ![image](https://user-images.githubusercontent.com/103047954/223862264-57c870e2-3b1d-424a-ad15-f1c5c9903b1e.png)
 
 Lo agrega
